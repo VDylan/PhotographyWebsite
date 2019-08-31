@@ -4,7 +4,8 @@
 @import
   'abstracts/variables',
   'abstracts/functions',
-  'abstracts/mixins';
+  'abstracts/mixins',
+  'abstracts/placeholders';
 
 // 2. Vendors
 @import
@@ -19,8 +20,12 @@
 
 // 4. Layout-related sections
 @import
+  'layout/body',
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/grid',
+  'layout/navigation',
+  'layout/sidebar';
 
 // 5. Components
 @import
