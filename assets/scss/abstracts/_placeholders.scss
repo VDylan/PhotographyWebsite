@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass placeholders.
+// -----------------------------------------------------------------------------
+%grid-form {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
