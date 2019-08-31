@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all grid settings of the site/application.
+// -----------------------------------------------------------------------------
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+section {
+    grid-area: section;
+}
+
+.container {
+    @extend %grid-form;
+    grid-template-areas:
+    "header header header header header"
+    "section section section section section"
+    "nav nav nav nav nav"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
