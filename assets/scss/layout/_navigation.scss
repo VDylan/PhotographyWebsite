@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the nav bar of the site/application.
+// -----------------------------------------------------------------------------
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $light-grey;
+}
+
+nav > ul {
+    @extend %grid-form;
+}
+
+.active {
+    background-color: $white;
+}
