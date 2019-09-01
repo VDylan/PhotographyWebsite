@@ -8,33 +8,34 @@
   'abstracts/placeholders';
 
 // 2. Vendors
-@import
-  'vendors/normalize';
 
 // 3. Base stuff
 @import
   'base/base',
   'base/fonts',
   'base/typography',
-  'base/helpers';
+  'base/helpers',
+  'base/reset';
 
 // 4. Layout-related sections
 @import
+  'layout/grid',
   'layout/body',
   'layout/header',
   'layout/footer',
-  'layout/grid',
+  'layout/forms',
   'layout/navigation',
-  'layout/sidebar';
+  'layout/main';
 
 // 5. Components
 @import
-  'components/button';
+  'components/sidebar',
+  'components/media';
 
 // 6. Page-specific styles
 @import
-  'pages/home';
+  'pages/gallery',
+  'pages/home',
+  'pages/services.scss';
 
 // 7. Themes
-@import
-  'themes/default';
