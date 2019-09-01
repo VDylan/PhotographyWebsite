@@ -5,53 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home - Julia Photography</title>
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="https://kit.fontawesome.com/f90c7c90ea.js"></script>
   </head>
   <body>
     <div class="container">
-      <section>
+      <article>
         <h1>Julia Shawn</h1>
-        <p>A small description of her</p>
-      </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laudantium nihil illo architecto id porro voluptate fuga ratione sapiente excepturi explicabo et quae autem at, totam ipsam tenetur itaque repellat.</p>
+      </article>
 
       <header>
-        <img src="" alt="MyLogo" />
+        <img src="assets/images/icons/logo.png" alt="MyLogo" />
       </header>
 
-      <nav>
+      <nav class="nav-bar">
         <ul class="links">
-          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <ul>
-          <li><a href="" class="" target="_blank">Social Network 1</a></li>
-          <li><a href="" class="" target="_blank">Social Network 2</a></li>
         </ul>
       </nav>
 
       <main>
         <article>
-          <h2>A small title for the bio</h2>
-          <p>The bio ofc</p>
+          <h2>Who I am ?</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor optio repellat qui dolorem eaque asperiores, pariatur ex eius hic autem libero odio maxime magni error quia accusantium repellendus. Velit!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor optio repellat qui dolorem eaque asperiores, pariatur ex eius hic autem libero odio maxime magni error quia accusantium repellendus. Velit!</p>
         </article>
 
-        <div>
-          This is just for a slider, but I don't know how to do this currently
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/images/pictures/baby-father.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/images/pictures/brother-sister.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/images/pictures/baby.jpg" style="width:100%">
+          </div>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
       </main>
 
       <footer>
         <section>
-          <p>A text for the footer</p>
           <ul>
-            <li><a href="" class="" target="_blank">Social Network 1</a></li>
-            <li><a href="" class="" target="_blank">Return to top</a></li>
-            <li><a href="" class="" target="_blank">Social Network 2</a></li>
+            <li><a href="" class="" target="_blank"><i class="fab fa-twitter-square fa-3x" ></i></a></li>
+            <li><a href="" class="" target="_blank"><i class="fas fa-arrow-circle-up fa-3x"></i></a></li>
+            <li><a href="" class="" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></li>
           </ul>
         </section>
       </footer>
+
+      <section id="copyright">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam esse enim minima
+          mollitia delectus nulla exercitationem quam assumenda, sed libero aut provident quisquam facere,
+          incidunt cupiditate recusandae consectetur porro voluptatibus!</p>
+      </section>
     </div>
+
+    <script type="text/javascript" src="assets/js/sliders.js"></script>
   </body>
 </html>
