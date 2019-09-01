@@ -7,6 +7,7 @@ header {
 
 nav {
     grid-area: nav;
+    @extend %placement;
 }
 
 main {
@@ -15,18 +16,36 @@ main {
 
 footer {
     grid-area: footer;
+    @extend %placement;
 }
 
 section {
     grid-area: section;
 }
 
+article {
+    grid-area: article;
+}
+
+.pregnant {
+    grid-area: pregnant;
+}
+
+.birth {
+    grid-area: birth;
+}
+
+.baby {
+    grid-area: baby;
+}
+
 .container {
     @extend %grid-form;
     grid-template-areas:
-    "header header header header header"
-    "section section section section section"
-    "nav nav nav nav nav"
-    "main main main main main"
-    "footer footer footer footer footer";
+    "header header header header header header header header header header header header"
+    "article article article article article article article article article article article article"
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "main main main main main main main main main main main main"
+    "footer footer footer footer footer footer footer footer footer footer footer footer"
+    "section section section section section section section section section section section section";
 }
